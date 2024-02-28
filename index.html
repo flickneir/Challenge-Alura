@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura-Challenge</title>
+</head>
+<body>
+    <main>
+        <header><img src="imagenes/Logo.png" alt="logo" class="logo"></header>
+        <section class="container">
+            <div class="items-1">
+                <textarea cols="50" rows="15" id="text-entrada" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="sub-items-1">
+                    <p> <img src="imagenes/bi_exclamation-circle-fill.png" class="exclamation">Solo letras minúsculas y sin acentos</p>
+                    <div class="btn">
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="items-2">
+                <div class="sub-items-2">
+                    <textarea cols="50" rows="15" id="text-salida" class=""></textarea>
+                    <img src="imagenes/Muñeco.png" alt="Muñeco" class="muneco" id="muneco">
+                    <h3 id="h3">Ningún mensaje fue encontrado</h3>
+                    <p class="validar" id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button class="copiar" id="btn-copiar">Copiar</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+         <div class="pie">
+            <h4>Creado por Jaime Neira en colaboración con ONE - Oracle Next Education.</h4>
+            <a href="https://github.com/flickneir"><img src="Iconos - footer/273178_github_icon.png" alt="logo-github" class="icon"></a>
+         </div>
+        </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
